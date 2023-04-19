@@ -1,5 +1,5 @@
-test: test.c
-	gcc -Wall -Werror -o test test.c
+main: main.c
+	gcc -Wall -Werror -o main main.c
 
-run: test
-	./test
+run: main
+	./main
